@@ -1,6 +1,26 @@
-======
- Team
-======
+Projet d'année 2 - Battleship
+=============================
+
+📝 Description
+===============
+
+Ce projet propose une version jouable en terminal ou en interface graphique (GUI), selon l’option de compilation choisie.
+
+Le jeu inclut un système de gestion de comptes utilisateurs, permettant à chaque joueur de :
+
+- se connecter avec un profil ;
+- gérer une liste d'amis ;
+- envoyer et recevoir des messages privés ;
+- créer ou rejoindre des parties multijoueurs ;
+- paramétrer une partie hébergée ;
+- consulter le replay de la dernière partie jouée.
+
+Cette application met en œuvre plusieurs aspects : gestion d’interfaces (CLI/GUI), persistance des données, communication entre utilisateurs et logique de jeu multijoueur.
+
+📘 Consignes du projet : 📎 Voir le PDF
+
+Team
+====
 
 - Coia Pascal - 000540745
 - Lo Cascio Rosario - RosarioLC - 000546687
@@ -12,23 +32,19 @@
 - Truong Nha - Minti - 000576343
 - Veyret Danae - Phantom - 000570552
 
-==========
-Librairies
-==========
+Requir*e*ments
+==============
 
-Afin de pouvoir compiler le programme GUI, il est nécessaire d'installer la librairie suivante :
+- C++ : version 12
+- SFML : ``sudo apt-get install libsfml-dev`` (pour le programme GUI)
 
-  SFML : sudo apt-get install libsfml-dev
-
-===========
 Compilation
 ===========
 
-``make terminal`` ou ``make gui`` pour créer le programme ``server`` ainsi que respectivement ``client_terminal`` ou ``client_gui``.
+- ``make terminal`` : crée le ``server`` ainsi que le ``client_terminal`` ;
+- ``make gui`` : crée le ``server`` ainsi que le ``client_gui`` ;
+- ``make mrclean`` : à utiliser avant de changer de client (supprime les exécutables, les ``.o`` et les ``.d``).
 
-Il n'est pas possible de compiler les deux clients en même temps.
-Il est recommandé de ``make clean`` avant de changer de client.
+⚠️ Attention : il n'est pas possible de compiler les deux clients en même temps.
 
-``make clean`` supprime les fichiers ``.o`` et ``.d``.
-
-``make mrclean`` supprime les exécutables en plus des fichiers ``.o`` et ``.d``.
+💡 Remarque : ``make clean`` supprime uniquement les fichiers ``.o`` et ``.d``.
