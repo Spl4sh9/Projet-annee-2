@@ -17,7 +17,7 @@ Le jeu inclut un système de gestion de comptes utilisateurs, permettant à chaq
 
 Cette application met en œuvre plusieurs aspects : gestion d’interfaces (CLI/GUI), persistance des données, communication entre utilisateurs et logique de jeu multijoueur.
 
-📘 Consignes du projet : 📎 Voir le [PDF](./Consignes.pdf).
+📘 Consignes du projet : 📎 Voir Consignes.pdf
 
 Team
 ====
